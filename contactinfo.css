@@ -1,0 +1,189 @@
+body {
+    background-color: white;
+}
+div.container {
+    background-color: rgb(255, 250, 250);
+    border: solid 10px #ffffff;
+    box-shadow: 1px 0px 50px #E5E1DA;
+    border-radius: 40px;
+    margin: 2rem 5rem;
+    padding-bottom: 10rem;
+}
+.header-container {
+    background-color: #ffffffb4;
+}
+.header {
+    margin: 9px 0px;
+    text-align: center;
+    font-size: 150px;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+div.contacts {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 60px;
+}
+.email:hover {
+    color: white;   
+    font-family: "Racing Sans One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+.name:hover {
+    color: white;
+    font-family: "Racing Sans One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+.xcom:hover {
+    text-align: center;
+    color: white;
+    font-family: "Racing Sans One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+
+}
+/* Text Grids*/
+div.facebook {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+div.gmail {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.twitter {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*Texts*/
+.facebook a {
+    text-decoration: none;
+    font-family: "Racing Sans One", system-ui;
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: normal;
+    color: #231557;
+    border: solid 10px #ffffffb4;
+    background-color: #ffffffb4;
+    box-shadow: 1px 0px 50px #E5E1DA;
+    border-radius: 100px;
+    padding: 0rem 3rem;
+    transition: 0.5s;
+}
+a:hover {
+    transform: translateY(-20px);
+}
+p:hover {
+    transform: translateY(-20px);
+}
+.gmail p {
+    font-family: "Racing Sans One", system-ui;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    color: #231557;
+    border: solid 10px #ffffffb4;
+    background-color: #ffffffb4;
+    box-shadow: 1px 0px 50px #E5E1DA;
+    border-radius: 100px;
+    padding: 0rem 3rem;
+    transition: 0.5s;
+}
+.twitter a {
+    text-decoration: none;
+    font-family: "Racing Sans One", system-ui;
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: normal;
+    color: #231557;
+    border: solid 10px #ffffffb4;
+    background-color: #ffffffb4;
+    box-shadow: 1px 0px 50px #E5E1DA;
+    border-radius: 100px;
+    padding: 0rem 3rem;
+    transition: 0.5s;
+}
+
+/* Logo Sizes*/
+img {
+    overflow: hidden;
+}
+.fblogo img {
+    width: 600px;
+    height: 350px;
+    animation: rainbowEffect;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.gmaillogo img {
+    width: 400px;
+    height: 300px;
+    animation: rainbowEffect;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.xlogo img {
+    width: 400px;
+    height: 400px;
+    animation: rainbowEffect;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/*Logo Grids */
+div.fblogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+div.gmaillogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+div.xlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
